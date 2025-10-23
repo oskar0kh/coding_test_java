@@ -22,7 +22,7 @@ public class Main {
             int x = node[0];
             int y = node[1];
 
-            for(int i=0; i<4; i++) {
+            for(int i=0; i<4; i++) { // 4방향 돌면서 상하좌우 중 가능한 길목 찾기
                 int nx = x + dx[i];
                 int ny = y + dy[i];
 
